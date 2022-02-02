@@ -16,6 +16,7 @@ pipeline {
            steps { 
                    sh 'pwd'
 		   sh 'cp -r target/*.jar ./docker/'
+		   sh 'pwd'
            }
         }
          
